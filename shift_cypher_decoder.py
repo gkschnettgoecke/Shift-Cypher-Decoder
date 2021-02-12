@@ -5,6 +5,10 @@ lang_map = { 'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h': 7, 'i'
 print('Enter cypher text:')
 cypher_text = input()
 
+# Example cypher texts:
+# cypher_text = fqjcb rwjwj vnjax bnkhj whxcq nawjv nfxdu mbvnu ujbbf nnc
+# cypher_text = oczmz vmzor jocdi bnojv dhvod igdaz admno ojbzo rcvot jprvi oviyv aozmo cvooj ziejt dojig toczr dnzno jahvi fdiyv xcdzq zoczn zxjiy
+
 for k in range(1, 26):
     decoded_text = ""
     key.rotate(1)
